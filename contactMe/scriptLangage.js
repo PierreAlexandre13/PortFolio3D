@@ -321,7 +321,7 @@ let avion;
 let avionMesh;
 
 
-loader.load('../contactMe/avionPapier.obj', (object) => {
+loader.load('./avionPapier.obj', (object) => {
 
     avion = object;
 

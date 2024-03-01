@@ -112,7 +112,7 @@ updateContent();
 var retoure = document.getElementById('buttonCercle');
 retoure.addEventListener('click', function() {
     console.log("retour clique !");
-    window.location.href = "/homepage";
+    window.location.href = "../";
 });
 
 

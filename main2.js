@@ -396,28 +396,28 @@ if (chaineBool == null) {
 document.addEventListener('click', () => {
     if(BOuvert == false){
         if(onBlueprint && clickDuration < 200){
-            enveloppeTransition("/projets");
+            enveloppeTransition("/projets/index.html");
             if(nbDansChaine(chaineBool, '1') == false){
                 compteurVaraible += 1;
                 chaineBool += '1';
             }
         }
         else if(onEnveloppe && clickDuration < 200){
-            enveloppeTransition("/contact");
+            enveloppeTransition("/contactMe/index.html");
             if(nbDansChaine(chaineBool, '2') == false){
                 compteurVaraible += 1;
                 chaineBool += '2';
             }
         }
         else if(onCheck && clickDuration < 200){
-            enveloppeTransition("/competences");
+            enveloppeTransition("/competences/index.html");
             if(nbDansChaine(chaineBool, '3') == false){
                 compteurVaraible += 1;
                 chaineBool += '3';
             }
         }
         else if(onBras && clickDuration < 200){
-            enveloppeTransition("/pro");
+            enveloppeTransition("/pro/index.html");
             if(nbDansChaine(chaineBool, '4') == false){
                 compteurVaraible += 1;
                 chaineBool += '4';

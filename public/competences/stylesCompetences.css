@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.competence {
+    height: 200vh;
+    margin : 0;
+    border : 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+
+h1 {   
+    font-size: 10vw; 
+    position : fixed;
+    top: 25vh;
+    /* left: 10vw;  */
+    text-align: center;
+
+}
+
+
+.logoC {
+    height: 7vw;
+    width: 7vw;
+    position: absolute;
+    top: 120vh;
+    left: 5vw;
+    transition: transform 0.3s ease, transform-origin 0.3s ease;
+
+}
+
+
+.logoCadre {
+    height: 6.6vw;
+    width: 6.7vw; 
+    border: 2px solid #5f3f25; 
+    border-radius: 20%;
+    position: fixed;
+    left: 5vw;
+    top: 20vh;
+    transition: border-radius 0.3s ease, border-color 0.3s ease, transform-origin 0.3s ease, transform 0.3s ease;
+
+}
+
+
+.logoC:hover {
+    transform: scale(1.2) rotate(15deg);
+}
+
+.logoC:hover .logoCadre{
+    transform: scale(1.1) rotate(15deg);
+    /* border-color: #ffffff;
+    border-radius: 10px; */
+    
+}
+
+#Cpp {
+    position: absolute;
+    top: 220vh;
+    left: 25vw;
+}
+
+#cCpp {
+    position: fixed;
+    left: 25vw;
+    top: 20vh;
+}
+
+#html {
+    position: absolute;
+    top: 320vh;
+    left: 45vw;
+}
+
+#chtml {
+    position: fixed;
+    left: 45vw;
+    top: 20vh;
+}
+/*  */
+#css {
+    position: absolute;
+    top: 420vh;
+    left: 65vw;
+}
+
+#ccss {
+    position: fixed;
+    left: 65vw;
+    top: 20vh;
+}
+/*  */
+#js {
+    position: absolute;
+    top: 520vh;
+    left: 85vw;
+}
+
+#cjs {
+    position: fixed;
+    left: 85vw;
+    top: 20vh;
+}
+/*  */
+#python {
+    position: absolute;
+    top: 620vh;
+    left: 5vw;
+}
+
+#cpython {
+    position: fixed;
+    left: 5vw;
+    top: 70vh;
+}
+/*  */
+#arduino {
+    position: absolute;
+    top: 720vh;
+    left: 25vw;
+}
+
+#carduino {
+    position: fixed;
+    left: 25vw;
+    top: 70vh;
+}
+/*  */
+#solidworks {
+    position: absolute;
+    top: 820vh;
+    left: 45vw;
+}
+
+#csolidworks {
+    position: fixed;
+    left: 45vw;
+    top: 70vh;
+}
+/*  */
+#fusion {
+    position: absolute;
+    top: 920vh;
+    left: 65vw;
+}
+
+#cfusion {
+    position: fixed;
+    left: 65vw;
+    top: 70vh;
+}
+/*  */
+#easy {
+    position: absolute;
+    top: 1020vh;
+    left: 85vw;
+}
+
+#ceasy {
+    position: fixed;
+    left: 85vw;
+    top: 70vh;
+}
+
+.place {
+    height: 20vh;
+    width: 90vw;
+    position: absolute;
+    top: 1100vh;
+}
+

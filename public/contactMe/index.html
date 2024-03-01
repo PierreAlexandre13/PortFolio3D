@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <title>✉️ Contact Me</title>
+    <link rel="icon" href="../logoPortFolio.png" type="image/png">
+    <link rel="stylesheet" href="/contactMe/styles.css">
+    <link rel="stylesheet" href="/contactMe/styleLangage.css">
+    <!-- <script type="module" src="script.js"></script> -->
+    
+
+    <script type="importmap">
+        {
+            "imports":{
+                "/contactMe/node_modules/three/examples/jsm/loaders/OBJLoader":"./node_modules/three/examples/jsm/loaders/OBJLoader.js",
+                "three": "/contactMe/node_modules/three/build/three.module.js",
+				"three/addons/": "/contactMe/node_modules/three/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module" src="/contactMe/scriptLangage.js"></script>
+
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <div class="circle-button" id="buttonCercle">
+        <div class="arrow"></div>
+    </div>
+
+    <h2 class="content" id="1">CONTACT ME!</h2>
+
+    <div class="globalForm" id="globaleForme">
+        <div id="emailForm">
+            <label class="content" id="2">Enter your email adress :</label>
+            <br>
+            <input type="text" id="emailInput"  placeholder="Your email...">
+        </div>
+    
+        <br>
+    
+        <div id="emailForm">
+            <label class="content" id="3">Subject :</label>
+            <br>
+            <input type="text" id="subjectInput" placeholder="Subject...">
+        </div>
+    
+        <br>
+    
+        <div id="emailForm">
+            <label class="content" id="4">Enter Message:</label>
+            <br>
+            <!-- <input type="text" id="messageInput" placeholder="Message..."> -->
+            <textarea class="editable-div" contenteditable="true" id="messageInput" placeholder="Message..."></textarea>
+        </div>
+
+        <div id="info"> </div>
+
+   
+        <button  class="content" id="5" class="valider" type="button">Send Email</button>
+    </div>
+
+    <!-- buttons de langage : toujours en dernier -->
+    <div class="language-container">
+        <button id="selectLanguageBtn">
+            <img src="global2.jpg" alt="global"> Select Language
+        </button>
+        <div id="languageButtons" class="hidden">
+            <button id="englishBtn">
+                <img class="drapeau" src="america.png" alt="english"> English
+            </button>
+            <button id="frenchBtn">
+                <img class="drapeau" src="france.jpg" alt="french"> French
+            </button>
+        </div>
+    </div>
+    <!-- buttons de langage : toujours en dernier -->
+    
+
+    
+    <!-- <script type="module" src="scriptAvion.js"></script> -->
+    
+
+</body>
+</html>

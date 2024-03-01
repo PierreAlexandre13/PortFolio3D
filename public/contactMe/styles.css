@@ -1,0 +1,124 @@
+
+body {
+    font-family : 'Andale Mono', monospace;
+    color: #4C73F0;
+    margin: 0%;
+}
+
+.circle-button {
+    width: 4.3vw; /*60px pour les deux*/
+    height: 4.3vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #4C73F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 2s ease;
+    transition: border-color 2s ease;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+.circle-button:hover{
+    background-color: #4C73F0; 
+    border-color: #ffffff;
+}
+
+.circle-button:hover .arrow:before,
+.circle-button:hover .arrow:after {
+    background-color: #ffffff; /* Change the line color as needed on hover */
+}
+
+.arrow:before, .arrow:after {
+    content: '';
+    width: 2.2vw; /*30px*/
+    height: 3px;
+    background-color: #4C73F0;
+    position: absolute;
+    transition: background-color 2s ease;
+}
+
+.arrow:before {
+    transform: rotate(-45deg);
+    top: 31%;
+    right: 33%;
+}
+
+.arrow:after {
+    transform: rotate(45deg);
+    bottom: 31%;
+    right: 33%;
+}
+
+
+h2 {
+    position : absolute;
+    top: 2%;
+    left: 15%;
+    margin-bottom: 2%;
+
+    font-size: 2vw;
+}
+
+.globalForm {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    margin-top: 2%;
+    font-size: 1vw;
+}
+
+
+input {
+    margin-top: 2%;
+    border: 1px solid #888888;
+    border-radius: 3px;
+    width: 20vw; /* Set the desired width */
+    height: 30px;
+    box-shadow: 0 0 5px 0 #4C73F0; /* Add a blue box shadow */
+    border: none;
+    
+}
+
+::placeholder {
+    position: absolute;
+    top: 0.8vh;
+    left: 0.3vh;
+    text-align: left; /* Align placeholder text to the left */
+    vertical-align: top; /* Align placeholder text to the top */
+}
+
+
+.editable-div {
+    margin-top: 2%;
+    padding: 5px;
+    border: 1px solid #888888;
+    border-radius: 3px;
+    min-height: 50px; 
+    width: 20vw; 
+    height: 30px;
+    color: black;
+    overflow: auto;
+    box-shadow: 0 0 5px 0 #4C73F0; /* Add a blue box shadow */
+    border: none;
+}
+
+.editable-div::placeholder {
+    position: absolute;
+    top: 0.6vh;
+    left: 0.5vh;
+    text-align: left; /* Align placeholder text to the left */
+    vertical-align: top; /* Align placeholder text to the top */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#info {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #d62f2f; 
+}

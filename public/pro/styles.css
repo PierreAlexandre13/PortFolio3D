@@ -1,0 +1,263 @@
+body {
+    margin : 0;
+    background-color: #11003f;
+    color: #cbc5ff;
+} 
+
+
+h1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-top: 5vh;
+    font-size: 10vw;
+    position :relative;
+    padding-left: 5vw;
+    transform: translateY(-10vh);
+}
+
+h2 {
+    padding-top: 10vh;
+    font-size: 7vw;
+    position :relative;
+    padding-left: 5vw;
+    transform: translateY(-10vh);
+}
+
+
+p {
+    font-size: 4vw;
+}
+
+.titre1 {
+    position: absolute;
+    top: 35vw;
+}
+
+.cetec {
+    height: 15vw;
+    width: 20vw;
+    position: absolute;
+    left: 30vw;
+    top: 48vw;
+}
+
+.rob {
+    position: absolute;
+    left: 2vw;
+    top: 90vw;
+}
+
+.conception {
+    position: absolute;
+    left: 40vw;
+    top: 210vw;
+}
+
+.meca {
+    position: absolute;
+    left: 30vw;
+    top: 380vw;
+}
+
+.robot {
+    height: 35vw;
+    width: 40vw;
+    position: absolute;
+    left: 50vw;
+    top: 70vw;
+}
+
+.logiciel {
+    height: 35vw;
+    width: 50vw;
+    position: absolute;
+    left: 7vw;
+    top: 120vw;
+}
+
+.code {
+    height: 35vw;
+    width: 50vw;
+    position: absolute;
+    left: 45vw;
+    top: 167vw;
+}
+
+.solidworks {
+    height: 25vw;
+    width: 25vw;
+    position: absolute;
+    left: 5vw;
+    top: 200vw;
+}
+
+.model1 {
+    height: 30vw;
+    width: 40vw;
+    position: absolute;
+    left: 45vw;
+    top: 230vw;
+}
+
+.modelMoteur {
+    height: 30vw;
+    width: 40vw;
+    position: absolute;
+    left: 10vw;
+    top: 280vw;
+}
+
+.support {
+    height: 30vw;
+    width: 45vw;
+    position: absolute;
+    left: 40vw;
+    top: 330vw;
+}
+
+.schema {
+    height: 30vw;
+    width: 45vw;
+    position: absolute;
+    left: 10vw;
+    top: 400vw;
+}
+
+.assembly {
+    height: 30vw;
+    width: 45vw;
+    position: absolute;
+    left: 45vw;
+    top: 450vw;
+}
+
+/* ######### */
+
+.titre2 {
+    position: absolute;
+    left: 0vw;
+    top: 500vw;
+}
+
+.triInfo{
+    position: absolute;
+    left: 5vw;
+    top: 550vw;
+}
+
+.label{
+    position: absolute;
+    left: 5vw;
+    top: 590vw;
+}
+
+.orga{
+    position: absolute;
+    left: 40vw;
+    top: 660vw;
+}
+
+.excel {
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    left: 70vw;
+    top: 515vw;
+}
+
+.bande{
+    height: 3vw;
+    width: 95vw;
+    position: absolute;
+    left: 1vw;
+    top: 535vw;
+}
+
+.tableau {
+    height: 30vw;
+    width: 50vw;
+    position: absolute;
+    left: 43vw;
+    top: 550vw;
+}
+
+.tableauFin {
+    height: 30vw;
+    width: 50vw;
+    position: absolute;
+    left: 43vw;
+    top: 610vw;
+}
+
+.tri {
+    height: 30vw;
+    width: 23vw;
+    position: absolute;
+    left: 7vw;
+    top: 650vw;
+}
+
+/* ################ */
+
+.titre3{
+    position: absolute;
+    left: 0vw;
+    top: 700vw;
+}
+
+.redac{
+    position: absolute;
+    left: 2vw;
+    top: 740vw;
+}
+
+.Entreprise{
+    position: absolute;
+    left: 30vw;
+    top: 780vw;
+}
+
+.journalisme{
+    position: absolute;
+    left: 5vw;
+    top: 820vw;
+}
+
+.comm{
+    position: absolute;
+    left: 5vw;
+    top: 860vw;
+    padding-bottom: 10vw;
+}
+
+.playBac {
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 755vw;
+}
+
+
+.legende {
+    font-size: 2vw;
+}
+
+.lBras {
+    position: absolute;
+    left: 63vw;
+    top: 104vw;
+}
+
+.lLogiciel {
+    position: absolute;
+    left: 60vw;
+    top: 135vw;
+}
+
+.lCode {
+    position: absolute;
+    left: 63vw;
+    top: 162vw;
+}

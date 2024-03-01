@@ -1,0 +1,61 @@
+
+.language-container {
+    text-align: center;
+    display: inline-block;
+    width: auto; /*auto 20vw*/
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+button {
+    background-color: #4C73F0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #0429a5;
+    /* margin: 5px;  */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+        background-color: rgb(146, 160, 241);
+    }
+    &:active {
+        background-color: rgb(255, 255, 255);
+        color: #4C73F0;
+        border: #4C73F0;
+        border-radius: 5px;
+
+    }
+
+}
+
+#selectLanguageBtn {
+    text-align: left;
+}
+
+img {
+    width: 25px; 
+    height: 25px; 
+    margin-right: 10px; 
+}
+
+.drapeau {
+    width: 30px; 
+    height: 25px; 
+    margin-right: 10px; 
+}
+
+#languageButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hidden {
+    visibility: hidden;
+}

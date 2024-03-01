@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Port-Folio Pierre-Alexandre</title>
+    <link rel="icon" href="logoPortFolio.png" type="image/png">
+    <style>
+        body { margin: 0; }
+    </style>
+    <link rel="stylesheet" href="styleOverlay.css">
+    <link rel="stylesheet" href="styleLangage.css">
+    <script type="importmap">
+        {
+            "imports":{
+                "/node_modules/three/examples/jsm/loaders/OBJLoader":"./three/examples/jsm/loaders/OBJLoader.js",
+                "three": "./three/build/three.module.js",
+				"three/addons/": "./three/examples/jsm/"
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div id="container"></div>
+    <!-- <script type="module" src="main.js"></script> -->
+
+    <div class="overlay" id="overlay1">
+        <div class="center-container">
+            <div class="circle" id="Mycircle1">
+                <div class="x-element" id="croix"></div>
+            </div>
+        
+            <h1 class="content" id="1">TITRE</h1>
+        
+            <h3 class="content" id="2">SOUS-TITRE</h3>
+        
+            <p class="content" id="3" >TEXTE TEXTE TEXTE TEXTE TEXTE</p>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay2">
+        <div class="center-container">
+            <div class="circle" id="Mycircle2">
+                <div class="x-element" id="croix"></div>
+            </div>
+        
+            <h1 class="content" id="4">TITRE</h1>
+        
+            <p class="content" id="5">SOUS-TITRE</p>
+        
+            <p class="content" id="6" >TEXTE TEXTE TEXTE TEXTE TEXTE</p>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay3">
+        <div class="center-container">
+            <div class="circle" id="Mycircle3">
+                <div class="x-element" id="croix"></div>
+            </div>
+        
+            <h1 class="content" id="7">TITRE</h1>
+        
+            <h3 class="content" id="8">SOUS-TITRE</h3>
+        
+            <p class="content" id="9" >TEXTE TEXTE TEXTE TEXTE TEXTE</p>
+        </div>
+    </div>
+
+
+    <!-- buttons de langage : toujours en dernier -->
+    <div class="language-container">
+        <button id="selectLanguageBtn">
+            <img src="global2.jpg" alt="global"> Select Language
+        </button>
+        <div id="languageButtons" class="hidden">
+            <button id="englishBtn">
+                <img class="drapeau" src="america.png" alt="english"> English
+            </button>
+            <button id="frenchBtn">
+                <img class="drapeau" src="france.jpg" alt="french"> French
+            </button>
+        </div>
+    </div>
+    <!-- buttons de langage : toujours en dernier -->
+
+    <div class="decouverte">
+        <p class="texteDecouv" id="compteurTexte">TEXTE : <span id="compte">0/6</span></p>
+    </div>
+
+
+    <script type="module" src="main2.js"></script>
+    <script type="module" src="scriptLangage.js"></script>
+</body>
+</html>

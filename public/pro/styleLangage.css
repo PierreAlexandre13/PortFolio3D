@@ -1,0 +1,111 @@
+
+.language-container {
+    text-align: center;
+    display: inline-block;
+    width: auto; /*auto 20vw*/
+    position: fixed;
+    top: 3%;
+    right: 2%;
+}
+
+button {
+    background-color: #250286;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #b7c7ff;
+    /* margin: 5px;  */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+        background-color: rgb(146, 160, 241);
+    }
+    &:active {
+        background-color: rgb(255, 255, 255);
+        color: #4C73F0;
+        border: #4C73F0;
+        border-radius: 5px;
+
+    }
+
+}
+
+#selectLanguageBtn {
+    text-align: left;
+}
+
+img {
+    width: 25px; 
+    height: 25px; 
+    margin-right: 10px; 
+}
+
+.drapeau {
+    width: 30px; 
+    height: 25px; 
+    margin-right: 10px; 
+}
+
+#languageButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.circle-button {
+    width: 4.3vw; /*60px pour les deux*/
+    height: 4.3vw;
+    background-color: #250286;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #b7c7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 2s ease;
+    transition: border-color 2s ease;
+    position: fixed;
+    top: 3%;
+    left: 2%;
+}
+
+.circle-button:hover{
+    background-color: #b7c7ff; 
+    border-color: #250286;
+}
+
+.circle-button:hover .arrow:before,
+.circle-button:hover .arrow:after {
+    background-color: #250286; /* Change the line color as needed on hover */
+}
+
+.arrow:before, .arrow:after {
+    content: '';
+    width: 2.2vw; /*30px*/
+    height: 3px;
+    background-color: #b7c7ff;
+    position: absolute;
+    transition: background-color 2s ease;
+}
+
+.arrow:before {
+    transform: rotate(-45deg);
+    top: 31%;
+    right: 33%;
+}
+
+.arrow:after {
+    transform: rotate(45deg);
+    bottom: 31%;
+    right: 33%;
+}
+

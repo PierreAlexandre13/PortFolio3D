@@ -1,0 +1,443 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+.container {
+    white-space: nowrap;
+    display:inline-flex;
+    
+}
+
+section {
+    /* display: inline-block; */
+    width: 100vw;
+    height: 320vw;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 0.5s ease; 
+
+
+    &:nth-of-type(1){
+        background-color: rgb(48, 48, 48);
+        color: green;
+    }
+    &:nth-of-type(2){
+        background-color:rgb(112, 112, 112);
+        color: green;
+    }
+    &:nth-of-type(3){
+        background-color: rgb(163, 163, 163);
+        color: green;
+    }
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+}
+
+
+.boutonScroll {
+    position: fixed;
+    top: 90%;
+    left: 35%;
+    height: 4vh;
+    width: 30vw;
+    background-color: #585858;
+    border: 2px solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.boutonDirection {
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-size: 3vh;
+    font-weight:bolder;
+    transition: color 0.2s ease;
+}
+.boutonDirection:hover {
+    background-color: #707070;
+    color: #000000;
+
+}
+.boutonDirection:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+#boutonGauche {
+    margin-right: auto;
+}
+
+#boutonDroite {
+    margin-left: auto;
+}
+
+.pointsNav {
+    display: flex;
+
+}
+
+.point {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+#p1 {
+    position: fixed;
+    top: 92.5%;
+    left: 43%;
+}
+#p2 {
+    position: fixed;
+    top: 92.5%;
+    left: 50%;
+}
+#p3 {
+    position: fixed;
+    top: 92.5%;
+    left: 57%;
+}
+
+.indicateur{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #3f3f3f;
+    position: fixed;
+    top: 92%;
+    left: 42.5%;
+    transition: left 0.2s ease;
+}
+
+
+.image {
+    height: 20vw;
+    width: 20vw;
+}
+.image1 {
+    box-shadow: 0 0 10px 5px #21c5d1;
+}
+.image2 {
+    box-shadow: 0 0 10px 5px #40a1fc;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+}
+
+.page1 {
+    color: #21c5d1;
+}
+
+.page2 {
+    color: #40a1fc;
+}
+
+.page3 {
+    color: #3a3dff;
+}
+
+
+
+#n2 {
+    position: absolute;
+    top: 40vw;
+    left: 5vw;
+}
+
+#n3 {
+    position: absolute;
+    top: 70vw;
+    left: 37vw;
+}
+
+#n4 {
+    position: absolute;
+    top: 110vw;
+    left: 10vw;
+}
+
+#n5 {
+    position: absolute;
+    top: 140vw;
+    left: 30vw;
+}
+
+#n6 {
+    position: absolute;
+    top: 170vw;
+    left: 5vw;
+}
+
+#n7 {
+    position: absolute;
+    top: 200vw;
+    left: 50vw;
+}
+
+#n8 {
+    position: absolute;
+    top: 230vw;
+    left: 80vw;
+}
+
+#n9 {
+    position: absolute;
+    top: 265vw;
+    left: 50vw;
+}
+
+
+
+#concep1 {
+    position: absolute;
+    top: 30vw;
+    left: 30vw;
+    transform: rotateZ(-90deg);
+    height: 30vw;
+    width: 20vw;
+}
+
+#concep2 {
+    position: absolute;
+    top: 30vw;
+    left: 70vw;
+    transform: rotateZ(-90deg);
+    height: 30vw;
+    width: 20vw;
+}
+
+#drone {
+    position: absolute;
+    top: 65vw;
+    left: 2vw;
+    height: 20vw;
+    width: 30vw;
+}
+
+#socleModel {
+    position: absolute;
+    top: 65vw;
+    left: 60vw;
+    height: 20vw;
+    width: 30vw;
+}
+#matos {
+    position: absolute;
+    top: 105vw;
+    left: 30vw;
+    height: 20vw;
+    width: 30vw;
+}
+#pcb {
+    position: absolute;
+    top: 135vw;
+    left: 62vw;
+    height: 20vw;
+    width: 30vw;
+}
+#impression3d {
+    position: absolute;
+    top: 165vw;
+    left: 35vw;
+    height: 20vw;
+    width: 30vw;
+}
+#codeDrone {
+    position: absolute;
+    top: 195vw;
+    left: 2vw;
+    height: 70vw;
+    width: 40vw;
+}
+#drone2 {
+    position: absolute;
+    top: 225vw;
+    left: 50vw;
+    height: 20vw;
+    width: 20vw;
+}
+#drone3 {
+    position: absolute;
+    top: 275vw;
+    left: 32vw;
+    height: 30vw;
+    width: 40vw;
+}
+
+
+/* ################# */
+
+
+
+#n11 {
+    position: absolute;
+    top: 30vw;
+    left: 2vw;
+}
+#n12 {
+    position: absolute;
+    top: 60vw;
+    left: 2vw;
+}
+#n13 {
+    position: absolute;
+    top: 90vw;
+    left: 50vw;
+}
+#n14 {
+    position: absolute;
+    top: 120vw;
+    left: 2vw;
+}
+#n15 {
+    position: absolute;
+    top: 150vw;
+    left: 23vw;
+}
+#n16 {
+    position: absolute;
+    top: 200vw;
+    left: 35vw;
+}
+
+#unity {
+    position: absolute;
+    top: 27vw;
+    left: 57vw;
+    height: 15vw;
+    width: 35vw;
+}
+#map {
+    position: absolute;
+    top: 50vw;
+    left: 40vw;
+    height: 30vw;
+    width: 55vw;
+}
+#ennemis {
+    position: absolute;
+    top: 85vw;
+    left: 5vw;
+    height: 20vw;
+    width: 40vw;
+}
+#donjon {
+    position: absolute;
+    top: 110vw;
+    left: 47vw;
+    height: 30vw;
+    width: 50vw;
+}
+#fusee {
+    position: absolute;
+    top: 165vw;
+    left: 2vw;
+    height: 30vw;
+    width: 50vw;
+}
+#arme2 {
+    position: absolute;
+    top: 165vw;
+    left: 55vw;
+    height: 30vw;
+    width: 40vw;
+}
+#code1 {
+    position: absolute;
+    top: 215vw;
+    left: 3vw;
+    height: 40vw;
+    width: 50vw;
+}
+#code2 {
+    position: absolute;
+    top: 215vw;
+    left: 55vw;
+    height: 40vw;
+    width: 40vw;
+}
+
+
+/* ############# */
+
+#n18 {
+    position: absolute;
+    top: 30vw;
+    left: 40vw;
+}
+#n19 {
+    position: absolute;
+    top: 60vw;
+    left: 40vw;
+}
+#n20 {
+    position: absolute;
+    top: 90vw;
+    left: 40vw;
+}
+#n21 {
+    position: absolute;
+    top: 120vw;
+    left: 40vw;
+}
+
+#fusion {
+    position: absolute;
+    top: 30vw;
+    left: 10vw;
+    height: 10vw;
+    width: 10vw;
+}
+#three {
+    position: absolute;
+    top: 60vw;
+    left: 10vw;
+    height: 15vw;
+    width: 15vw;
+}
+#express {
+    position: absolute;
+    top: 87vw;
+    left: 5vw;
+    height: 10vw;
+    width: 30vw;
+}
+#html {
+    position: absolute;
+    top: 120vw;
+    left: 5vw;
+    height: 10vw;
+    width: 10vw;
+}
+#css {
+    position: absolute;
+    top: 120vw;
+    left: 20vw;
+    height: 10vw;
+    width: 10vw;
+}

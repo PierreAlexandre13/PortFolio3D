@@ -283,10 +283,17 @@ setInterval(function() {
 
     const htmlCompteur = document.getElementById('compte');
     htmlCompteur.textContent = compteurVaraible + "/6";
+
+    if (compteurVaraible == 6 && BOuvert == false && finalMessPrem == false) {
+        finalMessPrem = true; 
+        openOverlay(4);
+    }
     
     
     
 }, 3);
+
+var finalMessPrem = false;
 
 document.addEventListener('mousemove', (event) => {
     if(BOuvert == false){
@@ -511,7 +518,7 @@ function openOverlay(nb) {
     document.getElementById('overlay'+nb).classList.remove('close');
 
     ouvert(nb);
-    BOuvert = true;
+    BOuvert = true;  
 }
 
 function ouvert(nb){

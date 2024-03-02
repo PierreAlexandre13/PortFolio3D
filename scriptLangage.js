@@ -19,7 +19,10 @@ const translations = {
         6: 'But also robotics and everything to do with new technologies',
         7: 'Technologies :',
         8: 'I\'ve always been curious and loved new technologies.',
-        9: 'So far, I\'ve built a drone and coded a 3D website. My next projects are the development of a mobile application and the development of artificial intelligence in Python.'
+        9: 'So far, I\'ve built a drone and coded a 3D website. My next projects are the development of a mobile application and the development of artificial intelligence in Python.',
+        10: 'Well done, you\'ve discover everything !',
+        11: 'Thank you for taking the time to explore my website',
+        12: 'I hope you enjoyed the experience. See you soon!'
     },
     'fr': {
         1: 'Bonjour et bienvenue sur mon PortFolio !',
@@ -30,7 +33,10 @@ const translations = {
         6: 'Mais aussi la robotique et tout ce qui touche aux nouvelles technologies',
         7: 'Technologies :',
         8: 'J\'ai toujours été curieux et aimé les nouvelles technologies.',
-        9: 'Pour l\'instant, j\'ai construit un drone et codé un site web en 3D. Mes prochains projets sont le développment d\'une application mobile et le dév d\'une intelligence artificielle avec python.'
+        9: 'Pour l\'instant, j\'ai construit un drone et codé un site web en 3D. Mes prochains projets sont le développment d\'une application mobile et le dév d\'une intelligence artificielle avec python.',
+        10: 'Bien joué, vous avez tous découvert !',
+        11: 'Merci d\'avoir pris le temps d\'explorer mon site web',
+        12: 'J\'espère que l\'expérience vous a plu. A bientôt !'
     }
 };
 

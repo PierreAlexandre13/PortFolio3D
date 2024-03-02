@@ -177,7 +177,7 @@ loader.load('myWorldv5.obj', (object) => {
 (error) => {console.log('An error happened');}
 );
 
-
+console.clear();
 
 
 

@@ -5,7 +5,6 @@ var compteurRight = 100;
 
 function left(){
 
-    console.log("left");
     var conteneur = document.querySelectorAll(".sec");
 
     conteneur.forEach(function(element) {
@@ -22,8 +21,6 @@ function left(){
 
 function right(){
 
-    console.log("right");
-    console.log(compteurRight);
     var conteneur = document.querySelectorAll(".sec");
 
     conteneur.forEach(function(element) {
@@ -46,7 +43,6 @@ var indicateur = document.getElementById("indic");
 var indice = 1;
 
 boutonGauche.addEventListener("click", function() {
-    console.log("clicked!");
     
 
     if (indice === 2){
@@ -63,7 +59,6 @@ boutonGauche.addEventListener("click", function() {
 });
 
 boutonDroite.addEventListener("click", function() {
-    console.log("clicked!");
     
 
     if (indice === 1){
@@ -204,7 +199,6 @@ updateContent();
 
 var retoure = document.getElementById('buttonCercle');
 retoure.addEventListener('click', function() {
-    console.log("retour clique !");
     window.location.href = "../";
 });
 

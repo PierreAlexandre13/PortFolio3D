@@ -65,7 +65,6 @@ for (let i = 0; i < 200; i++) {
 
     pivot.add(sphereClone);
 }
-console.log(pivot.children);
 
 
 //light
@@ -446,7 +445,6 @@ document.addEventListener('click', () => {
 });
 
 function enveloppeTransition(lien){
-    console.log("clicked Gauche");
 
     let compteur = 0;
 

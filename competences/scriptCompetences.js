@@ -77,7 +77,6 @@ updateContent();
 
 var retoure = document.getElementById('buttonCercle');
 retoure.addEventListener('click', function() {
-    console.log("retour clique !");
     window.location.href = "../";
 });
 
@@ -106,7 +105,6 @@ var ceasy = 0;
 
 function handleScroll() {
     var scrollPosition = window.scrollY;
-    console.log(scrollPosition);
     if(scrollPosition > 800){
         bc = 1;
     }

@@ -111,7 +111,6 @@ updateContent();
 
 var retoure = document.getElementById('buttonCercle');
 retoure.addEventListener('click', function() {
-    console.log("retour clique !");
     window.location.href = "../";
 });
 
@@ -132,7 +131,6 @@ var titre3 = document.getElementById("17");
 // Add a scroll event listener
 window.addEventListener("scroll", function () {
   var scrollPosition = normalizeScrollPosition();
-  console.log("norm : " +  normalizeScrollPosition());
 
   var c1 = 0.04;
   var c2 = 0.6;

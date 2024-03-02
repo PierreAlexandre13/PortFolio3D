@@ -216,8 +216,6 @@ function checkContenu(){
     var messageEmail = document.getElementById('messageInput').value;
     var subject = document.getElementById('subjectInput').value;
     let emailCount = localStorage.getItem('emailCount') || 0;
-
-    console.log(messageEmail);
     
     retrievedValue = localStorage.getItem('currentLanguage');
 
@@ -276,7 +274,6 @@ valide.addEventListener('click', function() {
 
 var retoure = document.getElementById('buttonCercle');
 retoure.addEventListener('click', function() {
-    console.log("retour clique !");
     window.location.href = "../";
 });
 
